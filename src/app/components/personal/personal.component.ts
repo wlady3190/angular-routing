@@ -6,16 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./personal.component.css']
 })
 export class PersonalComponent {
-  data:any = [{
-    'nombre': 'Wlady',
-    'profesion': 'medico',
-    'edad': 30,
-    'genero': 'M'
-  },
-  {
-    'nombre': 'lili',
-    'profesion': 'inge',
-    'edad': 36
-  }
-]
+  data:any = 'https://api.sampleapis.com/futurama/characters'
 }
