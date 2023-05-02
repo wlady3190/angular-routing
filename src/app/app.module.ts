@@ -8,6 +8,7 @@ import { PersonalComponent } from './components/personal/personal.component';
 import { HomeComponent } from './components/home/home.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { E404Component } from './components/e404/e404.component';
+import { VideoComponent } from './components/video/video.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { E404Component } from './components/e404/e404.component';
     PersonalComponent,
     HomeComponent,
     NosotrosComponent,
-    E404Component
+    E404Component,
+    VideoComponent
   ],
   imports: [
     BrowserModule,
